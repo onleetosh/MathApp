@@ -4,21 +4,22 @@ public class MathApp {
 
 
     public static void main (String[] args)  {
+
         //create two variables to represent the salary for Bob and Gary
         double bobSalary = 50000;
         double garySalary = 60000;
 
-        //create a variable for highest salary
+        //create a variable for highest salary between Bod and Gary
         double highestSalary = Math.max(bobSalary, garySalary);
 
-        //print the highest salary
-        System.out.println("The highest salary is ... " + highestSalary);
+        //display the highest salary
+        System.out.println("The highest salary is between Bob and Gary is  " + highestSalary);
 
-        //find and display the smallest two variables named car price and truck price
+        //create two variables named car price and truck and assign a value
         double carPrice = 5000;
         double truckPrice = 10000;
 
-        //find and display the smallest price between two vehicles
+        //find and display the smallest value between two vehicles
         double lowestPrice = Math.min(carPrice, truckPrice);
         System.out.println("The lowest vehicle price is " + lowestPrice);
 
@@ -46,7 +47,6 @@ public class MathApp {
         //find and display a random number between 0 and 1
         double randomNumber = Math.random();
         System.out.print("A random number between 1 and 0 is  " + randomNumber );
-
 
         //find and display a random number between 1 and 5
         double randomNumber2 = 1 + (Math.random() * 4);
