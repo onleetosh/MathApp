@@ -38,7 +38,7 @@ public class MathApp {
         double distanceBetween = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("The distance between the two points is " + distanceBetween);
 
-        //find and display the distance the absolute value of a variable
+        //find and display the absolute value of a variable
         double number2 = -3.8;
         double absoluteValue = Math.abs(number2);
         System.out.println("The absolute value of " + number2 + " is " + absoluteValue);
